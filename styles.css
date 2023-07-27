@@ -66,20 +66,6 @@ button:hover {
   background-color: #a35d1f; /* Slightly lighter brown on hover */
 }
 
-/* Additional styles to make the pop-up more responsive */
-@media screen and (max-width: 768px) {
-  .modal-content {
-    max-width: 90%;
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .modal-content {
-    max-width: 95%;
-    width: 95%;
-  }
-}
 
 /* Additional styles to make the pop-up more responsive */
 @media screen and (max-width: 768px) {
@@ -94,7 +80,20 @@ button:hover {
     max-width: 95%;
     width: 95%;
   }
-}.starting
+}
+@media screen and (max-width: 450px) {
+  .modal-content {
+    max-width: 95%;
+    width: 95%;
+    font-size: 12px;
+    img {
+      max-width: 70%; /* You can adjust the percentage value to your preference */
+  }
+  }
+}
+
+/* Additional styles to make the pop-up more responsive */
+.starting
   {
     display: flex;
     background-color:rgba(244, 228, 182, 0.821); 
