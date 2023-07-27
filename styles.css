@@ -38,6 +38,7 @@ html{
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color:  #c1ae79;
+  background-image: url(Background\ Leather\ 2.jpg)
 }
 /* Leather-themed styling */
 h2 {
@@ -62,7 +63,7 @@ button {
 }
 
 button:hover {
-  background-color: #5d4836; /* Slightly lighter brown on hover */
+  background-color: #a35d1f; /* Slightly lighter brown on hover */
 }
 
 /* Additional styles to make the pop-up more responsive */
@@ -100,10 +101,13 @@ button:hover {
   }
   .headercolor
   {
-    padding-left: 130px;
+    padding-left: 210px;
     color: black;
     text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
   .upper-bar
   {
     background-color: burlywood
@@ -112,6 +116,7 @@ button:hover {
   {
     display: flex;
     background-color:rgb(219, 215, 215);
+    text-align: center;
     
   }
   .contents1
@@ -166,7 +171,8 @@ button:hover {
   .content2
   {
     position: relative;
-    bottom:50px
+    bottom:50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .row {
     display: flex;
@@ -177,6 +183,7 @@ button:hover {
   .column {
     padding-left:40px;
     flex: 23.33%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
   }
   .categories
   {
@@ -193,8 +200,14 @@ button:hover {
     color: black;
 }
 a:hover {
-  color: black;
+  color: rgb(196, 10, 10);
 }
+#a1
+  {
+    position: relative;
+    padding-left: 165px;
+  }
+    
   
 
 
