@@ -68,7 +68,7 @@ button:hover {
 
 
 /* Additional styles to make the pop-up more responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .modal-content {
     max-width: 90%;
     width: 90%;
@@ -114,7 +114,6 @@ button:hover {
     padding-bottom: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-
   .upper-bar
   {
     background-color: burlywood
@@ -124,7 +123,7 @@ button:hover {
     display: flex;
     background-color:rgb(219, 215, 215);
     text-align: center;
-    
+    text-decoration: none;  
   }
   .contents1
   {
@@ -136,10 +135,10 @@ button:hover {
   }
  
 .starting1 .contents1 a h4 {
-  color: black !important;
+  color: black ;
 }
 .starting1 .dropbtn h4{
-  color: black !important;
+  color: black ;
 }
   .background {
     position: relative;
@@ -213,15 +212,15 @@ button:hover {
     color: black;
   }
   a:visited{
-    color:rgb(184, 11, 11);
+    color: black;
   }
   a:active{
     color: black;
-  }
- 
-a:hover {
-  color:rgb(184, 11, 11)
 }
+a:hover {
+  color: darkred!important;
+}
+
 #a1
   {
     position: relative;
