@@ -14,7 +14,7 @@ html{
   }
   
   .modal-content {
-    background-color: #c1c1c1; /* Leather color */
+    background-color: rgb(245, 224, 63) /* Leather color */;
     border-radius: 5px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     max-width: 80%; /* Adjust the maximum width as needed */
@@ -36,20 +36,20 @@ html{
     color: #250101;
   }
   body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:  #c1ae79;
     background-image: url(Background\ Leather\ 2.jpg)
   }
   /* Leather-themed styling */
   h2 {
     font-size: 24px;
-    color: #3d2c1f; /* Dark brown */
+    color:darkred; /* Dark brown */
     margin-bottom: 15px;
   }
   
   p {
     font-size: 16px;
-    color: #635040; /* Light brown */
+    color: black; /* Light brown */
     margin-bottom: 10px;
   }
   
@@ -97,12 +97,15 @@ html{
   }.starting
     {
       display: flex;
-      background-color:rgba(244, 228, 182, 0.821); 
+      background-color:rgba(55, 42, 3, 0.821); 
+    }
+    .starting .companyname a h2 {
+      color: white!important;
     }
     .headercolor
     {
       padding-left: 210px;
-      color: black;
+      color: white;
       text-align: center;
       padding-bottom: 15px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -129,11 +132,20 @@ html{
       flex: 53.33%;
       color:black;
       text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      position: relative;
+      top: 7px;
     }
     .background {
       position: relative;
       text-align: center;
       color: white;
+    }
+    .starting1 .contents1 a h4 {
+      color: black !important;
+    }
+    .starting1 .dropbtn h4{
+      color: black !important;
     }
     
     /* Bottom left text */
@@ -176,6 +188,7 @@ html{
     .container
     {
       position: relative;
+      top:15px;
       padding-left: 5px;
     }
     .content2
@@ -215,6 +228,11 @@ html{
     position: relative;
     padding-left: 165px;
   }
+  #contactLink
+{
+  color: black;
+}
+    
     
   
   

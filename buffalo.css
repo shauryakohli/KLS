@@ -9,14 +9,15 @@ html{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
+  color: rgba(197, 41, 41, 0.5);
+  z-index: 999;
+  display: block;
 }
 
 .modal-content {
-  background-color: #c1c1c1; /* Leather color */
+  background-color: rgb(245, 224, 63) /* Leather color */;
   border-radius: 5px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(182, 11, 11, 0.2);
   max-width: 80%; /* Adjust the maximum width as needed */
   width: 400px; /* You can set a fixed width if preferred */
   margin: 50px auto;
@@ -36,20 +37,19 @@ html{
   color: #250101;
 }
 body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color:  #c1ae79;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background-image: url(Background\ Leather\ 2.jpg)
 }
 /* Leather-themed styling */
 h2 {
   font-size: 24px;
-  color: #3d2c1f; /* Dark brown */
+  color:darkred; /* Dark brown */
   margin-bottom: 15px;
 }
 
 p {
   font-size: 16px;
-  color: #635040; /* Light brown */
+  color: black; /* Light brown */
   margin-bottom: 10px;
 }
 
@@ -63,9 +63,8 @@ button {
 }
 
 button:hover {
-  background-color: #5d4836; /* Slightly lighter brown on hover */
+  background-color: #a35d1f; /* Slightly lighter brown on hover */
 }
-
 /* Additional styles to make the pop-up more responsive */
 @media screen and (max-width: 768px) {
   .modal-content {
@@ -95,14 +94,17 @@ button:hover {
     width: 95%;
   }
 }.starting
-  {
-    display: flex;
-    background-color:rgba(244, 228, 182, 0.821); 
-  }
+{
+  display: flex;
+  background-color:rgba(55, 42, 3, 0.821); 
+}
+.starting .companyname a h2 {
+  color: white!important;
+}
   .headercolor
   {
     padding-left: 210px;
-    color: black;
+    color: white;
     text-align: center;
     padding-bottom: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -123,11 +125,24 @@ button:hover {
       flex: 53.33%;
       color:black;
       text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      position: relative;
+      top: 7px;
+    }
+    .contents1 a
+    {
+      color:black;
     }
     .background {
       position: relative;
       text-align: center;
       color: white;
+    }
+    .starting1 .contents1 a h4 {
+      color: black !important;
+    }
+    .starting1 .dropbtn h4{
+      color: black !important;
     }
     
     /* Bottom left text */
@@ -171,12 +186,12 @@ button:hover {
     {
       position: relative;
       padding-left: 5px;
+      top:15px
     }
     .content2
     {
       position: relative;
       bottom:50px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
     .row {
       display: flex;
@@ -188,6 +203,9 @@ button:hover {
       flex: 23.33%;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+    .column a {
+      color: black !important;
+    }
     .row2 {
         display: flex;
         position: absolute;
@@ -198,19 +216,22 @@ button:hover {
         flex: 23.33%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
+      .column2 a {
+        color: black !important;
+      }
     .categories
     {
       position: absolute;
       padding-left: 20px;
     }
     a:link{
-      color: black;
+      color: white
     }
     a:visited{
-        color: black;
+      color: white
     }
     a:active{
-      color: black;
+      color: white
   }
   a:hover {
     color: black;
@@ -224,6 +245,16 @@ button:hover {
     text-decoration: underline; /* Add underline on hover for visual feedback */
     transition: text-decoration 0.6s ease; /* Adjust the duration as needed */
   }
+  #a1
+  {
+    position: relative;
+    padding-left: 165px;
+  }
+  #contactLink
+{
+  color: black;
+}
+    
   
   
   
